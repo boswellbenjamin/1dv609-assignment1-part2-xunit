@@ -1,0 +1,62 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Lockfiles (keep if you prefer to track lockfiles; uncomment otherwise)
+# package-lock.json
+# pnpm-lock.yaml
+# yarn.lock
+
+# Vite / build
+dist/
+.vite/
+build/
+
+# Vitest / coverage
+coverage/
+.vitest/
+coverage-final.json
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
+.env.local
+
+# Editors/IDE
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Misc
+.cache/
+.parcel-cache/
+*.tgz
+*.zip
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional: ignore test snapshots if present
+__snapshots__/
+
+# npm debug
+npm-debug.log*
+
+# JetBrains
+*.iml
+
+# Coverage reports
+coverage/
+
+# End of .gitignore
